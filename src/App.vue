@@ -1,13 +1,19 @@
 <script setup>
-import components from './components/components.vue';
+import Reatividade from './components/Reatividade.vue';
 import sintaxeTemplete from './components/sintaxeTemplete.vue';
+import Computed from './components/Computed.vue';
+import Watcher from './components/Watcher.vue';
+
 </script>
 
 <template>
 
   <main>
-    <components/>
+    <Watcher/>
+   <Reatividade/>
     <sintaxeTemplete/>
+    <Computed/>
+    
   </main>
 </template>
 
