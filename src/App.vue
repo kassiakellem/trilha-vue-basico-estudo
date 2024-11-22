@@ -6,6 +6,7 @@ import Watcher from './components/Watcher.vue';
 import ClassStyle from './components/ClassStyle.vue';
 import Condicional from './components/Condicional.vue';
 import Listas from './components/Listas.vue';
+import Templetes from './components/Templetes.vue';
 
 </script>
 
@@ -20,6 +21,7 @@ import Listas from './components/Listas.vue';
     <Condicional/>
      -->
     <Listas/>
+    <Templetes/>
   </main>
 </template>
 
