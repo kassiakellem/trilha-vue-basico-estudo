@@ -40,9 +40,9 @@ const selecionado = ref("");
     <div>
     <select v-model="selecionado">
         <option disabled value="">Selecione um valor</option>
-        <option>A</option>
-        <option>B</option>
-        <option>C</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
 
     </select>
         <br/>
