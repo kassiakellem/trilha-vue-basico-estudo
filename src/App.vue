@@ -7,6 +7,7 @@ import ClassStyle from './components/ClassStyle.vue';
 import Condicional from './components/Condicional.vue';
 import Listas from './components/Listas.vue';
 import Templetes from './components/Templetes.vue';
+import EventosLifCycleHooks from './components/EventosLifCycleHooks.vue';
 
 </script>
 
@@ -20,8 +21,9 @@ import Templetes from './components/Templetes.vue';
     <ClassStyle/>
     <Condicional/>
      -->
-    <Listas/>
-    <Templetes/>
+    <!-- <Listas/>
+    <Templetes/> -->
+    <EventosLifCycleHooks/>
   </main>
 </template>
 
